@@ -74,7 +74,7 @@ Tokens are sent one-by-one in real-time using FastAPI’s StreamingResponse.
 
 # 🚀 How to Run Locally
 1. Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Mostafa786/IoT-Rag-Project.git
 cd your-repo-name
 
 2. Create virtual environment
