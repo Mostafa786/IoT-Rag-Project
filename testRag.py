@@ -16,7 +16,7 @@ import os
 import warnings
 warnings.filterwarnings("ignore")
 app = FastAPI()
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAO8__Z6vi4kqLp5NCq7LUIjpCjNX04nfI"
+os.environ["GOOGLE_API_KEY"] = "Enter Your API Key"
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash",temperature=0.3,convert_system_message_to_human=True,streaming=True)
 
 query = "IoT"
